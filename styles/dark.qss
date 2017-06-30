@@ -262,6 +262,7 @@ QMenu::icon
 QMenu::separator
 {
   background: #454545;
+  height: 1px;
 }
 
 /* --- QPUSHBUTTON --- */
