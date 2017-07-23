@@ -149,11 +149,7 @@ QTextEdit
   border-radius:3px;
   border:1px solid #454545;
 }
-QLineEdit, QTextEdit[type="without-border"]
-{
-  border-radius:0px;
-  border:0px;
-}
+
 
 /* --- QLIST QTREE --- */
 
@@ -897,7 +893,15 @@ ResWGT--DateTimeEdit QPushButton:pressed
   padding-top:2px;
 }
 
+/* ==================================================== */
 
+QLineEdit[type="without-border"],
+QTextEdit[type="without-border"],
+QListView[type="without-border"]
+{
+  border-radius:0px;
+  border:0px;
+}
 
 
 /* ==================================================== */
